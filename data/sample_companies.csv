@@ -1,0 +1,4 @@
+company,sector,revenue_eur_m,ebitda_eur_m,net_debt_eur_m,enterprise_value_eur_m,ebit_eur_m,interest_expense_eur_m,order_backlog_eur_m
+Example Defence Systems,Defence,820,123,295,1046,91,20,2470
+Example Defence Electronics,Defence,460,101,84,1111,74,8,1840
+Example Mobility Systems,Defence,690,138,207,1242,109,13,2070
