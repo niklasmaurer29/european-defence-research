@@ -98,3 +98,5 @@ Read the valuation assumptions and outputs in
 [`research/05_valuation_method.md`](research/05_valuation_method.md).
 The evidence-based thesis, catalyst and risk screen is in
 [`research/06_investment_case_screen.md`](research/06_investment_case_screen.md).
+The finished historical peer memo is in
+[`research/07_peer_investment_memo.md`](research/07_peer_investment_memo.md).
