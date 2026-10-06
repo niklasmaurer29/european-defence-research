@@ -20,6 +20,8 @@ must not be compared mechanically with the other companies.
 
 Read the detailed interpretation in
 [`research/02_fy2025_initial_observations.md`](research/02_fy2025_initial_observations.md).
+The credit-ranking guardrail is documented in
+[`research/03_credit_framework.md`](research/03_credit_framework.md).
 
 ## What it does
 
@@ -49,6 +51,7 @@ You only need Python 3:
 ```bash
 python3 src/analyze.py
 python3 src/build_fact_base.py
+python3 src/check_credit_readiness.py
 ```
 
 The technical screening demonstration is written to `output/screening_results.csv`.
