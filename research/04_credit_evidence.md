@@ -83,7 +83,7 @@ interview, but not to claim that one issuer has the "best" credit profile.
 
 | Company | Required evidence before peer credit comparison |
 |---|---|
-| All three | Reconcile the covenant definitions and, before valuation, obtain a dated market-capitalisation data point. |
+| All three | Reconcile covenant definitions before converting the screen into a score or an investment conclusion. |
 
 ## Sources
 

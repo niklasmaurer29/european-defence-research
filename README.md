@@ -96,3 +96,5 @@ See `research/01_project_brief.md` for the exact research question and
 `research/investment_memo_template.md` for the final written deliverable.
 Read the valuation assumptions and outputs in
 [`research/05_valuation_method.md`](research/05_valuation_method.md).
+The evidence-based thesis, catalyst and risk screen is in
+[`research/06_investment_case_screen.md`](research/06_investment_case_screen.md).
