@@ -6,8 +6,9 @@ European defence sector. The peer universe is Rheinmetall, Hensoldt and Renk.
 ## Current research snapshot
 
 The first source-checked FY 2025 fact base is complete for revenue, reported
-profitability and order backlog. It is intentionally **not yet an investment
-recommendation**: leverage and valuation require additional definition work.
+profitability, order backlog and a definition-aware credit extract. It is
+intentionally **not yet an investment recommendation**: valuation still
+requires a dated market-data input and further reconciliation work.
 
 | Company | Revenue | Reported profitability metric | Order backlog | Backlog / revenue |
 |---|---:|---:|---:|---:|
@@ -22,8 +23,8 @@ Read the detailed interpretation in
 [`research/02_fy2025_initial_observations.md`](research/02_fy2025_initial_observations.md).
 The credit-ranking guardrail is documented in
 [`research/03_credit_framework.md`](research/03_credit_framework.md). The
-first audited credit extract, including Hensoldt's reported net-cash position
-and definition caveat, is in
+audited credit extracts, including Hensoldt's reported net-cash position,
+Rheinmetall's reported net-liquidity position and their definition caveats, are in
 [`research/04_credit_evidence.md`](research/04_credit_evidence.md).
 
 ## What it does

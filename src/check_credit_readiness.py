@@ -12,7 +12,7 @@ SOURCE_REGISTER = PROJECT_ROOT / "research" / "source_register.csv"
 # Issuers may use either label. The source register preserves the label used in
 # the report instead of forcing a false standardisation at data-entry stage.
 REQUIRED_EVIDENCE = {
-    "reported net debt": {"net debt", "net financial debt"},
+    "net debt evidence": {"net debt", "net financial debt", "standardised net debt"},
     "interest expense": {"interest expense"},
 }
 
@@ -43,7 +43,7 @@ def main() -> None:
     if not ready:
         print("\nNo peer credit ranking generated. Complete the audited source register first.")
     else:
-        print("\nNo peer credit ranking generated. Standardise each issuer definition manually first.")
+        print("\nNo automatic peer credit ranking generated. Review the qualitative definition notes before any conclusion.")
 
 
 if __name__ == "__main__":

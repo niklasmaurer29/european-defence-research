@@ -15,11 +15,11 @@ fact base, not yet a recommendation or a completed comparable-company analysis.
   definitions differ. Rheinmetall explicitly includes both binding backlog and
   framework agreements, so its 6.4x ratio is not directly interchangeable with
   the other two ratios.
-- Hensoldt is the only company in this first source set that explicitly reports
-  net leverage: 1.6x. Its audited report separately shows EUR -297m reported
-  net debt (net cash), but its debt table excludes lease liabilities. This is a
-  useful example of why the 1.6x covenant measure cannot be compared directly
-  with another issuer's net-debt calculation.
+- Hensoldt explicitly reports net leverage of 1.6x. Its audited report
+  separately shows EUR -297m reported net debt (net cash), but its debt table
+  excludes lease liabilities. Rheinmetall, by contrast, reports EUR 369m net
+  liquidity and includes leases in total financial debts. This is a useful
+  example of why neither company metric should be compared mechanically.
 - The reported result metrics are not identical (operating result, adjusted
   EBITDA and adjusted EBIT). We will preserve the labels and only create a
   common valuation multiple after reconciling the definitions.
@@ -27,7 +27,8 @@ fact base, not yet a recommendation or a completed comparable-company analysis.
 ## Next research questions
 
 1. What precisely is contained in each company's order backlog?
-2. What are their net-debt, lease-liability and interest-expense definitions?
+2. Can Renk's net-debt, lease-liability and interest-expense definitions be
+   captured and then standardised against the Rheinmetall and Hensoldt evidence?
 3. Does the share-price valuation imply a growth and margin path that the
    backlog can realistically support?
 
