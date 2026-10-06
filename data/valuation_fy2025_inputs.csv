@@ -1,0 +1,4 @@
+company,valuation_date,market_cap_eur_m,standardised_net_debt_eur_m,ebit_eur_m,market_data_source,financial_data_source,definition_note
+Rheinmetall,2025-12-31,71810,-369,1684,Official Rheinmetall investor-relations FY2025 share-price table,Rheinmetall Annual Report 2025,"Market capitalisation at year-end; standardised net debt is negative because the company reported net liquidity."
+Hensoldt,2025-12-31,8478,748,221,Hensoldt Annual Report 2025 p. 14,Hensoldt Annual Report 2025,"Market capitalisation at year-end; standardised net debt adds lease liabilities to Hensoldt's issuer-reported net-debt components."
+Renk,2025-12-31,5362,348.198,169.352,RENK Investor Relations Historical Price Lookup and Annual Report 2025 p. 188,RENK Annual Report 2025,"Market capitalisation is EUR 53.62 Xetra annual close times 100.0m shares; standardised net debt is financial liabilities less cash."
