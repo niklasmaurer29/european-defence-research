@@ -21,7 +21,10 @@ must not be compared mechanically with the other companies.
 Read the detailed interpretation in
 [`research/02_fy2025_initial_observations.md`](research/02_fy2025_initial_observations.md).
 The credit-ranking guardrail is documented in
-[`research/03_credit_framework.md`](research/03_credit_framework.md).
+[`research/03_credit_framework.md`](research/03_credit_framework.md). The
+first audited credit extract, including Hensoldt's reported net-cash position
+and definition caveat, is in
+[`research/04_credit_evidence.md`](research/04_credit_evidence.md).
 
 ## What it does
 

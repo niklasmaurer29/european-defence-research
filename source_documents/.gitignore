@@ -1,0 +1,4 @@
+# Public source PDFs are retained locally for research only.
+# Do not publish full issuer reports in this repository.
+*.pdf
+.DS_Store

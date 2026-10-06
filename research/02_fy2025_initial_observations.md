@@ -16,8 +16,10 @@ fact base, not yet a recommendation or a completed comparable-company analysis.
   framework agreements, so its 6.4x ratio is not directly interchangeable with
   the other two ratios.
 - Hensoldt is the only company in this first source set that explicitly reports
-  net leverage: 1.6x. We will wait for each audited report before comparing
-  leverage across the group.
+  net leverage: 1.6x. Its audited report separately shows EUR -297m reported
+  net debt (net cash), but its debt table excludes lease liabilities. This is a
+  useful example of why the 1.6x covenant measure cannot be compared directly
+  with another issuer's net-debt calculation.
 - The reported result metrics are not identical (operating result, adjusted
   EBITDA and adjusted EBIT). We will preserve the labels and only create a
   common valuation multiple after reconciling the definitions.
