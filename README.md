@@ -57,6 +57,7 @@ python3 src/analyze.py
 python3 src/build_fact_base.py
 python3 src/check_credit_readiness.py
 python3 src/build_valuation.py
+python3 -m streamlit run src/dashboard.py
 ```
 
 The technical screening demonstration is written to `output/screening_results.csv`.
@@ -64,6 +65,10 @@ The source-checked defence fact base is written to
 `output/fy2025_fact_base.csv`.
 The date-aligned valuation screen is written to
 `output/fy2025_valuation_screen.csv`.
+The interactive dashboard reads the versioned input data directly and shows the
+historical FY2025 peer screen in your browser. Install its dependencies with
+`python3 -m pip install -r requirements.txt` if Streamlit is not already
+available.
 
 ## Project workflow
 

@@ -1,0 +1,4 @@
+company,gross_interest_expense_eur_m,interest_income_eur_m,coverage_definition,source_note
+Rheinmetall,116,4,EBIT divided by gross interest expense,Rheinmetall Annual Report 2025 p. 199; interest income is shown for context but is not netted in the displayed coverage diagnostic.
+Hensoldt,106,25,EBIT divided by gross interest expense,Hensoldt Annual Report 2025 p. 145; interest income is shown for context but is not netted in the displayed coverage diagnostic.
+Renk,33.805,,EBIT divided by gross interest expense,RENK Annual Report 2025 pp. 140 and 176; no separate interest-income line is reported.
