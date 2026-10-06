@@ -3,6 +3,10 @@
 A reproducible equity-, valuation- and credit-research case study on the
 European defence sector. The peer universe is Rheinmetall, Hensoldt and Renk.
 
+## Dashboard preview
+
+![European Defence FY2025 peer screen: Rheinmetall snapshot and EV EBIT comparison](assets/european-defence-peer-screen.png)
+
 ## Current research snapshot
 
 The first source-checked FY 2025 fact base is complete for revenue, reported
@@ -69,6 +73,15 @@ The interactive dashboard reads the versioned input data directly and shows the
 historical FY2025 peer screen in your browser. Install its dependencies with
 `python3 -m pip install -r requirements.txt` if Streamlit is not already
 available.
+
+## How to discuss this in an interview
+
+> “I built a source-backed peer screen for Rheinmetall, Hensoldt and Renk.
+> Before calculating ratios, I retained each issuer's reported metric and
+> checked whether the definitions were comparable—for example Operating Result,
+> Adjusted EBITDA and Adjusted EBIT. That meant the analysis was auditable and
+> avoided presenting unlike measures as directly comparable. Only then did I
+> assess backlog, profitability, leverage and valuation in the peer memo.”
 
 ## Project workflow
 
