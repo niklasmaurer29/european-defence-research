@@ -5,7 +5,7 @@ European defence sector. The peer universe is Rheinmetall, Hensoldt and Renk.
 
 ## Dashboard preview
 
-![European Defence FY2025 peer screen: Rheinmetall snapshot and EV EBIT comparison](assets/european-defence-peer-screen.png)
+![European Defence FY2025 peer screen: EV EBIT comparison and source-backed metrics for Rheinmetall, Hensoldt and Renk](assets/european-defence-peer-screen.png)
 
 ## Current research snapshot
 
