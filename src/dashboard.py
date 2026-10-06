@@ -13,6 +13,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
+import altair as alt
 import pandas as pd
 import streamlit as st
 
@@ -21,6 +22,13 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 FACT_BASE_INPUT = PROJECT_ROOT / "data" / "reported_fy2025_summary.csv"
 VALUATION_INPUT = PROJECT_ROOT / "data" / "valuation_fy2025_inputs.csv"
 CREDIT_INPUT = PROJECT_ROOT / "data" / "credit_fy2025_inputs.csv"
+COMPANY_ORDER = ["Rheinmetall", "Hensoldt", "Renk"]
+# Corporate-identity-inspired colours used consistently across the peer charts.
+COMPANY_COLORS = {
+    "Rheinmetall": "#005CA9",
+    "Hensoldt": "#00A6CE",
+    "Renk": "#007C82",
+}
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -117,8 +125,28 @@ def main() -> None:
         ],
         help="Negative standardised net debt indicates net liquidity.",
     )
-    chart_data = data.set_index("Company")[[chart_metric]]
-    st.bar_chart(chart_data, width="stretch")
+    peer_chart = (
+        alt.Chart(data)
+        .mark_bar()
+        .encode(
+            x=alt.X("Company:N", sort=COMPANY_ORDER, title=None),
+            y=alt.Y(f"{chart_metric}:Q", title=chart_metric),
+            color=alt.Color(
+                "Company:N",
+                scale=alt.Scale(
+                    domain=COMPANY_ORDER,
+                    range=[COMPANY_COLORS[company] for company in COMPANY_ORDER],
+                ),
+                legend=alt.Legend(title="Company"),
+            ),
+            tooltip=[
+                alt.Tooltip("Company:N"),
+                alt.Tooltip(f"{chart_metric}:Q", format=".1f"),
+            ],
+        )
+        .properties(height=360)
+    )
+    st.altair_chart(peer_chart, use_container_width=True)
 
     st.subheader("Source-backed metrics")
     display_columns = [
